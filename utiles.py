@@ -6,3 +6,8 @@ def factorial(n):
 def fibonacci(n):
     if n <= 1: return n
     return fibonacci(n-1) + fibonacci(n-2)
+
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return abs(a)
