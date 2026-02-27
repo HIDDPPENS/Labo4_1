@@ -1,2 +1,3 @@
-ptint(factorial(19))
+print(factorial(19))
+fibonacci(5)
 
